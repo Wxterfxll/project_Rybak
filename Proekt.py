@@ -208,7 +208,7 @@ class GamePlatformInterface:
             rating = float(input("Введіть рейтинг гри (від 1 до 5): "))
             comment = input("Напишіть свій коментар: ")
             review = GameReview(user, rating, comment)
-            game.reviews.append(review)  # Додаємо відгук до списку відгуків гри
+            game.reviews.append(review)  
             print(f"Відгук на гру '{title}' успішно додано.")
         else:
             print(f"Гру з назвою '{title}' не знайдено.")
